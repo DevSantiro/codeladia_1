@@ -1,0 +1,39 @@
+.container {
+  background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  color: #ffffff;
+  max-width: 900px;
+  margin: 0 auto;
+  .nav_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+
+  .nav_search{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+
+    img {
+      position: absolute;
+      margin: 0.5rem 1rem;
+    }
+
+    input {
+      color: #ffffff;
+      background: transparent;
+      display: block;
+      border: none;
+      outline: none;
+      padding: 1rem 0rem 1rem 3.5rem;
+      width: 80%;
+    }
+  }
+}
+
