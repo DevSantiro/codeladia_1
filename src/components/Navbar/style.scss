@@ -7,6 +7,8 @@
   color: #ffffff;
   max-width: 900px;
   margin: 0 auto;
+  cursor: default;
+
   .nav_info{
     display: flex;
     align-items: center;
@@ -22,17 +24,28 @@
 
     img {
       position: absolute;
-      margin: 0.5rem 1rem;
+      width: 26px;
+      margin: 0.8rem 1rem;
     }
 
     input {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.3rem;
       color: #ffffff;
       background: transparent;
       display: block;
       border: none;
       outline: none;
       padding: 1rem 0rem 1rem 3.5rem;
+      border-radius: 5px;
       width: 80%;
+      opacity: 0.5;
+    }
+
+    ::placeholder {
+      color: #ffffff;
     }
   }
 }

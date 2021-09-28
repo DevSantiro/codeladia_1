@@ -1,0 +1,28 @@
+.card {
+  background: #ffffff;
+  color: #B6B6B6;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 5px;
+  cursor: default;
+
+  h3 {
+    color: #000000;
+  }
+
+  .fa-heart {
+    cursor: pointer;
+    color: var(--blue-dark);
+  }
+}
+
+.card_data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_detais {
+  p {
+    text-align: justify;
+  }
+}

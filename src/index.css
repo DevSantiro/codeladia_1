@@ -4,11 +4,21 @@
    margin: 0;
 }
 
+:root {
+  --blue: #3EA1DB;
+  --blue-dark: #574AE8;
+  --white: #FFF;
+
+  --title: #313131;
+  --text: #B6B6B6;
+  
+  --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
 body {
+  background: #efefef;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Lexend Deca, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
