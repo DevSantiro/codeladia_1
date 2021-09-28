@@ -6,6 +6,10 @@
   border-radius: 5px;
   cursor: default;
 
+  &:hover {
+    border: 1px solid var(--blue-dark);
+  }
+
   h3 {
     color: #000000;
   }
